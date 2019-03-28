@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="project:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/project_jar2</output-path>
+    <root id="archive" name="project.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="project" />
+      <element id="module-output" name="serialportDemo" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../mfz-rxtx-2.2-20081207-win-x64/mfz-rxtx-2.2-20081207-win-x64/RXTXcomm.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/serialportDemo/lib/mysql-connector-5.1.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
