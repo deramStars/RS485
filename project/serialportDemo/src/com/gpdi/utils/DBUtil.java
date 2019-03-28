@@ -10,9 +10,9 @@ import java.sql.SQLException;
 public class DBUtil {
     // 定义数据库连接参数
     public static final String DRIVER_CLASS_NAME = "com.mysql.jdbc.Driver";
-    public static final String URL = "jdbc:mysql://172.16.88.49:3306/atmospheric_enviro";
-    public static final String USERNAME = "dev";
-    public static final String PASSWORD = "bigdata";
+    public static final String URL = "jdbc:mysql://";
+    public static final String USERNAME = "";
+    public static final String PASSWORD = "";
 
     // 注册数据库驱动
     static {

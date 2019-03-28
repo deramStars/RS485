@@ -336,7 +336,6 @@ public class ContinueRead extends Thread implements SerialPortEventListener { //
 
     public static void main(String[] args) {
         ContinueRead cRead = new ContinueRead();
-        System.out.println("asdasd");
         int i = cRead.startComPort();
         if (i == 1) {
             // 启动线程来处理收到的数据
